@@ -9,12 +9,6 @@ const contacts = [
     { icon: <Mail size={16} />, title: 'Email', detail: 'info@raiminnovations.com', href: 'mailto:info@raiminnovations.com' },
 ];
 
-const socials = [
-    { label: 'f', title: 'Facebook', href: '#' },
-    { label: 'in', title: 'LinkedIn', href: '#' },
-    { label: '▶', title: 'Instagram', href: '#' },
-    { label: '▶', title: 'YouTube', href: '#' },
-];
 
 const serviceOptions = [
     'Web Development', 'Digital Marketing', 'SEO Services', 'Social Media Management',

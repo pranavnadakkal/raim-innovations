@@ -19,6 +19,7 @@ export function useInView(options = { threshold: 0.15 }) {
         }, options);
         observer.observe(el);
         return () => observer.disconnect();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return [ref, inView];
